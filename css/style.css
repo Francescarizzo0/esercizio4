@@ -1,0 +1,122 @@
+
+
+@font-face {
+    font-family: 'aliceregular';
+    src: url('alice-regular-webfont.woff2') format('woff2'),
+         url('alice-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+ background-color: #ffffff;
+   margin: 0;
+}
+header{
+   
+    display: flex;
+ background-color:#ACEBE7; 
+height: 60px;
+    justify-content: space-between;
+    
+}
+nav ul {
+    list-style: none;
+}
+nav a{
+    font-family: 'alice';
+    text-decoration: none;
+    color: #224152;
+    margin-right: 10px;
+    font-size: 20px;
+}
+nav a:hover{
+text-decoration: underline;
+} 
+header h1{
+    font-family: 'Galada', cursive;
+    margin-top: 6px;
+    margin-left: 20px;
+    color: #224152;
+}
+main h2{
+    font-family: 'Galada', cursive;
+    font-size: 69px; 
+    text-align: center;
+    margin-top: 20px;
+
+color: #224152;
+
+
+}
+div.illustrator{
+   
+    margin: auto;
+max-width: fit-content;
+}
+.illustrator h2{
+    margin: auto;
+    padding-bottom: 30px;
+    font-family: 'alice';
+    font-size: 26px;
+    text-align: center;
+    color: #1e1e1e;
+}
+.grid {
+   
+    display: grid;
+    grid-template-columns:repeat(3 ,1fr);
+    column-gap:15px;
+    row-gap: 80px;
+ margin:10px
+}
+.grid .item{
+    
+    height: 330px;
+    max-width:360px ;
+    
+}
+.grid .item1{
+    background-color:#F6BB55;
+    border-radius: 20px;
+}
+.grid .item2{
+    background-color:#FF6356;
+    border-radius: 20px;
+}
+.grid .item3{
+    background-color:#EE6DBF;
+    border-radius: 20px;
+}
+.grid .item4{
+    background-color:#378F35;
+    border-radius: 20px;
+}
+.grid .item5{
+    background-color:#4B83F2;
+    border-radius: 20px;
+}
+.grid .item6{
+    background-color:#8C06B8;
+    border-radius: 20px;
+}
+.grid .item img {
+   margin-top:30px;
+   margin-bottom: 10px;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+footer ul{
+    font-family: 'alice';
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    background-color:#ACEBE7; 
+   height: 30px;
+       justify-content: center;
+       padding-top: 10px;
+       padding-left: 0;
+       gap: 10px;
+       margin-top: 80px;
+       margin-bottom: 0;
+}
